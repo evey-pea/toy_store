@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2020_04_16_041831) do
   create_table "toys", force: :cascade do |t|
     t.string "name"
     t.text "description"
-    t.datetime "post_date"
+    t.date "post_date"
     t.string "user"
   end
 
